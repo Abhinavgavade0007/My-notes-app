@@ -1,16 +1,53 @@
-# React + Vite
+# Notes App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Notes App built using React.
+It is my first React project, made to understand how React works, especially state, events, and basic component structure.
 
-Currently, two official plugins are available:
+The app allows users to add notes with a title and details, view them on the screen, and delete them when not needed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# What this project does
 
-## React Compiler
+Add notes with a title and description
+Show all recently added notes
+Delete any note
+Simple and clean UI
+Responsive layout using Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Why I made this project
 
-## Expanding the ESLint configuration
+I made this project to practice:
+React functional components
+useState hook
+Handling form inputs
+Updating arrays in state
+Basic UI design with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# How the app works (in simple words)
+
+The app uses React useState to store:
+note title
+note details
+list of all notes
+When the form is submitted:
+the note is added to an array
+input fields are cleared
+Notes are displayed on the screen as cards
+Each note has a Delete button to remove it
+
+# Tech used
+React.js
+JavaScript
+Tailwind CSS
+
+# Future improvements
+
+Edit notes
+Save notes using localStorage
+Better input validation
+Improve UI
+
+# Author
+
+Abhinav Gavade
+B.Tech CSE (AIML)
+Learning React step by step 🙂
