@@ -5,6 +5,10 @@ It is my first React project, made to understand how React works, especially sta
 
 The app allows users to add notes with a title and details, view them on the screen, and delete them when not needed.
 
+# Demo IMAGES :: 
+![image alt](https://github.com/Abhinavgavade0007/My-notes-app/blob/f86ed5565a0e272a7c1e2bfaf640ec510c5ce361/Notes_App_1.png)
+![image alt](https://github.com/Abhinavgavade0007/My-notes-app/blob/f86ed5565a0e272a7c1e2bfaf640ec510c5ce361/Notes_App_2.png)
+
 # What this project does
 
 Add notes with a title and description
